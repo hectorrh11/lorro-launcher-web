@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lorro Launcher — Tu biblioteca de juegos, en un solo sitio</title>
+  <meta name="description" content="Lorro Launcher es un launcher de PC independiente y de código abierto: biblioteca, descargas, logros y demás, con una identidad violeta propia. Descarga la última versión en GitHub." />
+  <link rel="icon" href="./assets/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <meta property="og:title" content="Lorro Launcher" />
+  <meta property="og:description" content="Tu biblioteca, tus descargas, tus logros. Un launcher de PC gratuito, rápido y de código abierto." />
+  <meta property="og:image" content="./assets/shots/lorro1.png" />
+</head>
+<body>
+  <div class="site">
+    <nav class="site-nav">
+      <a class="site-nav__brand" href="#">
+        <img src="./assets/lorro-mark.svg" alt="" width="26" height="26" />
+        <span><strong>LORRO</strong> LAUNCHER</span>
+      </a>
+      <div class="site-nav__links">
+        <a href="#galeria">Galería</a>
+        <a href="#descargar">Descargar</a>
+        <a class="site-nav__github" href="https://github.com/hectorrh11/lorro-launcher" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.42 7.42 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A7.995 7.995 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          GitHub
+        </a>
+        <a class="btn btn--primary btn--nav" id="nav-download" href="https://github.com/hectorrh11/lorro-launcher/releases/latest" target="_blank" rel="noopener">Descargar</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <img class="hero__logo" src="./assets/lorro-logo-horizontal.svg" alt="Lorro Launcher" />
+      <p class="hero__tagline">Tu biblioteca, tus descargas, tus logros.<br /><span class="hero__accent">Un solo launcher, con identidad propia.</span></p>
+      <div class="hero__actions">
+        <a class="btn btn--primary btn--big" id="hero-download" href="https://github.com/hectorrh11/lorro-launcher/releases/latest" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M7.47 10.78a.75.75 0 0 0 1.06 0l3.75-3.75a.75.75 0 0 0-1.06-1.06L8.75 8.44V1.75a.75.75 0 0 0-1.5 0v6.69L4.78 5.97a.75.75 0 0 0-1.06 1.06l3.75 3.75ZM2.5 9.75a.75.75 0 0 0-1.5 0v3.5c0 .97.78 1.75 1.75 1.75h11.5c.97 0 1.75-.78 1.75-1.75v-3.5a.75.75 0 0 0-1.5 0v3.5a.25.25 0 0 1-.25.25H2.75a.25.25 0 0 1-.25-.25v-3.5Z"/></svg>
+          Descargar para Windows
+        </a>
+        <a class="btn btn--ghost btn--big" href="https://github.com/hectorrh11/lorro-launcher/releases" target="_blank" rel="noopener">Ver todas las versiones</a>
+      </div>
+      <p class="hero__meta">
+        <span class="pill pill--soft">Gratuito · Código abierto (MIT) · Portable e instalador</span>
+      </p>
+    </header>
+
+    <main>
+      <section class="section" id="galeria">
+        <h2 class="section__title">Un vistazo al launcher</h2>
+        <p class="section__subtitle">Capturas reales de la aplicación en marcha.</p>
+
+        <div class="shot shot--hero">
+          <img src="./assets/shots/lorro1.png" alt="Página de inicio de Lorro Launcher con hero de juego destacado y rejilla de tendencias" loading="lazy" decoding="async" />
+          <span class="shot__caption">Página de inicio con lanzamiento destacado y marcas calientes</span>
+        </div>
+
+        <div class="shots-grid">
+          <div class="shot">
+            <img src="./assets/shots/lorro3.png" alt="Página de descargas de Lorro Launcher con gráfico de velocidad" loading="lazy" decoding="async" />
+            <span class="shot__caption">Descargas propias con gráfico de velocidad y cola persistente</span>
+          </div>
+          <div class="shot">
+            <img src="./assets/shots/lorro4.png" alt="Ficha de un juego en Lorro Launcher con logros y sesiones de juego" loading="lazy" decoding="async" />
+            <span class="shot__caption">Ficha del juego con lanzamiento, logros y sesiones de juego</span>
+          </div>
+          <div class="shot">
+            <img src="./assets/shots/lorro2.png" alt="Catálogo de juegos de Lorro Launcher con filtros por género y año" loading="lazy" decoding="async" />
+            <span class="shot__caption">Catálogo con más de 200.000 resultados y filtros por año y género</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights" id="features">
+        <div class="highlight"><span class="highlight__ico">⬇️</span><h3>Descargas multi-conexión</h3><p>Hasta 16 conexiones en paralelo, cola persistente y reanudación tras interrupciones.</p></div>
+        <div class="highlight"><span class="highlight__ico">⏱️</span><h3>Sesiones de juego</h3><p>Cronometra automáticamente lo que juegas, por juego, con estadísticas locales.</p></div>
+        <div class="highlight"><span class="highlight__ico">💾</span><h3>Copias de partidas</h3><p>Backups automáticos y manuales de tus guardados, con restauración segura.</p></div>
+        <div class="highlight"><span class="highlight__ico">🖥️</span><h3>Big Picture</h3><p>Modo salón navegable con mando, para jugar desde el sofá.</p></div>
+      </section>
+
+      <section class="dl-section" id="descargar">
+        <h2>Descarga la última versión</h2>
+        <p>Instalador NSIS o versión portable, directos a la última release de GitHub.</p>
+        <div class="dl-section__actions">
+          <a class="btn btn--primary btn--big" id="dl-setup" href="https://github.com/hectorrh11/lorro-launcher/releases/latest" target="_blank" rel="noopener">Descargar instalador (.exe)</a>
+          <a class="btn btn--ghost btn--big" id="dl-portable" href="https://github.com/hectorrh11/lorro-launcher/releases/latest" target="_blank" rel="noopener">Versión portable</a>
+        </div>
+        <p class="dl-section__hint">Directo a la página de releases del proyecto en GitHub.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="./assets/lorro-mark.svg" width="18" height="18" alt="" />
+      <span>Lorro Launcher — código abierto, licencia MIT</span>
+      <span class="site-footer__attr">
+        Basado en el proyecto de código abierto <a href="https://github.com/hydralauncher/hydra" target="_blank" rel="noopener">Hydra Launcher</a>.
+      </span>
+    </footer>
+  </div>
+</body>
+</html>
